@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav">
+          <a class="header__logo" href="./index.html"><span class="header__logo-web">Web</span>Studio</a>
+          <ul class="header__list">
+            <li class="header__item current-item">
+              <a class="header__link" href="./index.html">Студия</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link  current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="header__item"><a class="header__link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="header__contact">
+          <li class="contact-item">
+            <a class="contact" href="mailto:info@devstudio.com">
+              <svg class="envelope">
+                <use href="./image/icons.svg#envelope"></use></svg
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contact-item">
+            <a class="contact" href="tel:+380961111111">
+              <svg class="phone">
+                <use href="./image/icons.svg#phone"></use></svg
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container section">
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <button class="btn" type="button">Все</button>
+            </li>
+            <li class="portfolio-item">
+              <button class="btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="portfolio-item">
+              <button class="btn" type="button">Приложения</button>
+            </li>
+            <li class="portfolio-item">
+              <button class="btn" type="button">Дизайн</button>
+            </li>
+            <li class="portfolio-item">
+              <button class="btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <h1 hidden>Наше портфолио</h1>
+          <ul class="work">
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/website.jpg"
+                    alt="Экран ноутбука с примером веб-сайта"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">Технокряк</h2>
+                  <p class="work-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/design.jpg"
+                    alt="Постер, где два баскетболиста играют в баскетбол"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="work-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/app.jpg"
+                    alt="Постер с рыбой и текстом названия ресторана The seafood restaurant"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">Ресторан Seafood</h2>
+                  <p class="work-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/marketing.jpg"
+                    alt="Черные наушники"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">Проект Prime</h2>
+                  <p class="work-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/app2.jpg"
+                    alt="Белая и коричневая коробка"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">Проект Boxes</h2>
+                  <p class="work-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/website2.jpg"
+                    alt="Экран компьютера с примером веб-сайта"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="work-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/design2.jpg"
+                    alt="Журнал с открытыми страницами"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">
+                    Издание Limited Edition
+                  </h2>
+                  <p class="work-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/marketing2.jpg"
+                    alt="Белый лейбл"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">Проект LAB</h2>
+                  <p class="work-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="work-item">
+              <a class="work-nav" href="">
+                <div class="thumb">
+                  <img
+                    class="work-photo"
+                    src="./image/app3.jpg"
+                    alt="Ноутбук на которм открыто приложение Growing Business"
+                    width="370"
+                  />
+                  <p class="product-text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="work-container">
+                  <h2 class="work-title general-title">Growing Business</h2>
+                  <p class="work-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="page-footer">
+      <div class="container footer-container">
+        <div class="container-address">
+          <a class="logo-studio footer-logo" href="./index.html"
+            ><span class="logo-web">Web</span>Studio</a
+          >
+          <address>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a
+                  class="address"
+                  href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-contact" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-contact" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="container-join">
+          <b class="join">присоединяйтесь</b>
+          <ul class="join-list">
+            <li class="join-item">
+              <a class="join-link" href="">
+                <svg class="join-svg">
+                  <use
+                    width="20px"
+                    height="20px"
+                    href="./image/icons.svg#instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="join-link" href="">
+                <svg class="join-svg">
+                  <use
+                    width="20px"
+                    height="20px"
+                    href="./image/icons.svg#twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="join-link" href="">
+                <svg class="join-svg">
+                  <use
+                    width="20px"
+                    height="20px"
+                    href="./image/icons.svg#facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-item">
+              <a class="join-link" href="">
+                <svg class="join-svg">
+                  <use
+                    width="20px"
+                    height="20px"
+                    href="./image/icons.svg#linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
