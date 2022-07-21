@@ -483,24 +483,24 @@ img{
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.benefits-list {
+.benefits__list {
   display: flex;
 }
-.benefits-item:not(:last-child) {
+.benefits__item:not(:last-child) {
   margin-right: 30px;
 }
-.benefits-title {
+.benefits__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
-.benefits-text {
+.benefits__text {
   color: var(--secondary-text-color);
 
   line-height: 1.71;
   min-width: 270px;
 }
-.icon-container {
+.benefits__icon {
   width: 270px;
   height: 120px;
   background-color: var(--button-color);
@@ -508,6 +508,12 @@ img{
   padding: 25px 100px;
   margin-bottom: 30px;
 }
+
+
+
+
+
+
 
 /* Чем мы занимаемся */
 .do {
@@ -571,7 +577,7 @@ img{
   font-size: 16px;
 }
 .team-title,
-.benefits-title {
+.benefits__title {
   margin-bottom: 10px;
 }
 .team-list {
