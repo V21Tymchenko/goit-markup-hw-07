@@ -134,7 +134,6 @@ img{
 }
 .header__link,
 .team-photo,
-.do-textphoto,
 .work-photo {
   display: block;
 }
@@ -516,22 +515,22 @@ img{
 
 
 /* Чем мы занимаемся */
-.do {
+.occupation {
   padding-top: 0px;
 }
-.do-photo {
+.occupation__photo {
   display: block;
 }
-.do-list {
+.occupation__list {
   display: flex;
   justify-content: space-between;
 }
-.do-item {
+.occupation__item {
   display: block;
   position: relative;
   z-index: 0;
 }
-.do-text {
+.occupation__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -549,8 +548,13 @@ img{
   min-height: 70px;
 }
 
+
+
+
+
+
 /* Наша команда */
-.page-title {
+.styles-title {
   font-size: 36px;
   line-height: 1.17;
 
