@@ -94,10 +94,10 @@ img {
 }
 .header__link:hover,
 .header__link:focus,
-.footer__link-address:hover,
-.footer__link-address:focus,
-.footer__link-contact:hover,
-.footer__link-contact:focus {
+.footer__link--address:hover,
+.footer__link--address:focus,
+.footer__link--contact:hover,
+.footer__link--contact:focus {
   color: var(--accent-color);
 }
 
@@ -342,7 +342,7 @@ img {
 .form__list {
   margin-bottom: 20px;
 }
-.form__button-send {
+.form__button--send {
   padding: 10px 55px;
   min-width: 200px;
   border: none;
@@ -409,7 +409,7 @@ img {
   fill: var(--accent-color);
 }
 
-.policy__icon-empty {
+.policy__icon--empty {
   position: absolute;
   display: inline-block;
   width: 15px;
@@ -419,7 +419,7 @@ img {
   background-color: var(--main-color);
 }
 
-.policy__icon-agree {
+.policy__icon--marked {
   position: absolute;
   display: inline-block;
   width: 16px;
@@ -431,11 +431,11 @@ img {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy__input:checked ~ .policy__icon-agree {
+.policy__input:checked ~ .policy__icon--marked {
   opacity: 1;
 }
 
-.modal__button-close {
+.modal__button--close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -450,13 +450,13 @@ img {
   cursor: pointer;
   padding: 0;
 }
-.modal__icon-close {
+.modal__icon--close {
   width: 18px;
   height: 18px;
   fill: black;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__button-close:hover .modal__icon-close {
+.modal__button--close:hover .modal__icon--close {
   fill: var(--accent-color);
 }
 
@@ -655,19 +655,19 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer__link-address,
-.footer__link-contact {
+.footer__link--address,
+.footer__link--contact {
   line-height: 1.71;
 }
-.footer__link-address {
+.footer__link--address {
   color: var(--main-color);
   font-weight: 400;
 }
-.footer__link-address,
-.footer__link-contact {
+.footer__link--address,
+.footer__link--contact {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__link-contact {
+.footer__link--contact {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer__logo {
@@ -886,7 +886,7 @@ img {
   overflow: hidden;
   position: relative;
 }
-.works__text-up {
+.works__text--up {
   position: absolute;
   top: 0;
   left: 0;
@@ -902,6 +902,6 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.works__item:hover .works__text-up {
+.works__item:hover .works__text--up {
   transform: translateY(0%);
 }
