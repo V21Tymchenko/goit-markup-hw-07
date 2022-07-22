@@ -597,11 +597,6 @@ img {
   margin: 0 auto;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .subscribe__button, .contacts__link, .header__nav, .header__container {
   align-items: center;
   display: flex;
@@ -611,6 +606,18 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .header {
