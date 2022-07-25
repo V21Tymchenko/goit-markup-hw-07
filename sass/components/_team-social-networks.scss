@@ -51,9 +51,14 @@ color:$mainTextColor;
 height: 374px;
 margin: 0;
 }
-
 }
-
+ .team__photo{
+  display: block;
+  @media screen and (max-width:767px){
+ width: 450px;
+height: 460px;
+  }
+ }
  .social__icon {
    width: 20px;
   height: 20px;
