@@ -10,7 +10,7 @@
   <body>
     <!--HEADER-->
     <header class="header">
-      <div class="header__container container">
+      <div class="header__container container mobile">
        <div class="header__logo-container">
           <a class="header__logo logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
               <button data-menu-button aria-expanded="false" aria-controls="menu-container" type="button" class="header__button">
@@ -55,7 +55,7 @@
     <main>
       <!--HERO-->
       <section class="hero">
-        <div class="container">
+        <div class="container hero__container">
           <h1 class="hero__title">Эффективные решения <br/>для вашего бизнеса</h1>
           <button data-modal-open type="button" class="hero__button">Заказать услугу</button>
           <div class="backdrop is-hidden" data-modal>
@@ -223,7 +223,7 @@
             <li class="team__list">
               <img class="team__photo" src="./image/our-team4.jpg" alt="Сотрудник компании(мужчина) в черной футболке"  width="270px" height="260px"/>
               <div class="team__container">
-                <h3 class="team__title">Михаил Ермаковв</h3>
+                <h3 class="team__title">Михаил Ермаков</h3>
                 <p class="team__text">UI Designer</p>
                 <ul class="social">
                   <li><a class="social__link" href=""><svg class="social__icon" width="20px" height="20px"><use href="./image/icons.svg#instagram"></use></svg></a></li>
@@ -241,42 +241,42 @@
         <div class="container">
           <h2 class="clients__title">Постоянные клиенты</h2>
           <ul class="clients__list">
-            <li>
+            <li class="clients__item" >
               <a class="clients__link" href="">
                 <svg class="clients__icon" width="41px" height="47px">
                   <use href="./image/icons.svg#company1"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item" >
               <a class="clients__link" href="">
                 <svg class="clients__icon" width="40px" height="52px">
                   <use href="./image/icons.svg#company2"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item" >
               <a class="clients__link" href="">
                 <svg class="clients__icon" width="44px" height="42px">
                   <use href="./image/icons.svg#company3"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item" >
               <a class="clients__link" href="">
                 <svg class="clients__icon" width="85px" height="41px">
                   <use href="./image/icons.svg#company4"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item" >
               <a class="clients__link" href="">
                 <svg class="clients__icon" width="63px" height="46px">
                   <use href="./image/icons.svg#company5"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="clients__item" >
               <a class="clients__link" href="">
                 <svg class="clients__icon" width="94px" height="50px">
                   <use href="./image/icons.svg#company6"></use>
@@ -289,11 +289,13 @@
     </main>
     <!--FOOTER-->
     <footer class="footer">
-      <div class="container footer__container">
+    <div class="container footer__container">
+      <div class="footer__general-container">
+
         <div class="footer__address">
           <a class="logo footer__logo" href="./index.html"><span class="logo-web">Web</span>Studio</a>
           <address>
-            <ul>
+            <ul class="footer__list" >
               <li class="footer__item">
                 <a class="footer__link--address" href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
               </li>
@@ -310,28 +312,28 @@
         <div class="join">
           <b class="join__call">присоединяйтесь</b>
           <ul class="join__list">
-            <li>
+            <li class="join__item" >
               <a class="join-link" href="">
                 <svg class="join__svg">
                   <use width="20px" height="20px" href="./image/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="join__item" >
               <a class="join-link" href="">
                 <svg class="join__svg">
                   <use width="20px" height="20px" href="./image/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="join__item" >
               <a class="join-link" href="">
                 <svg class="join__svg">
                   <use width="20px" height="20px" href="./image/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li>
+            <li class="join__item" > 
               <a class="join-link" href="">
                 <svg class="join__svg">
                   <use width="20px" height="20px" href="./image/icons.svg#linkedin"></use>
@@ -340,6 +342,8 @@
             </li>
           </ul>
         </div>
+      </div>
+       
         <div class="subscribe">
         <b class="subscribe__title">Подпишитесь на рассылку</b>
         <ul class="subscribe__list">
