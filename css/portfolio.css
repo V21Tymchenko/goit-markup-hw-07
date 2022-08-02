@@ -613,11 +613,16 @@ img {
 }
 
 .container {
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 480px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -1065,7 +1070,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .header__nav {
-    margin-right: 297px;
+    margin-right: 169px;
   }
 }
 @media screen and (max-width: 767px) {
